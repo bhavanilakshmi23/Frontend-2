@@ -55,6 +55,7 @@ const  deleteRow=(id)=> setList(list.filter((row)=>row.id!==id))
           type="text" 
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+         placeholder="Enter Description"
         /> </label>
      
    <label>Quantity:
@@ -63,13 +64,15 @@ const  deleteRow=(id)=> setList(list.filter((row)=>row.id!==id))
           type="text" 
           value={quantity}
           onChange={(e) => setQuantity(e.target.value)}
+         placeholder="Enter Quantity"
         /> </label>
       <label>Price: 
         <input
           type="text" 
           value={price}
           onChange={(e) => setPrice(e.target.value)}
-        /></label>
+           placeholder="Enter Price"
+              /></label>
      
       <label>Amount: 
        <p>{amount}</p>
