@@ -98,6 +98,7 @@ const handleprint=()=>{
           type="text" 
           value={name}
           onChange={(e) => setName(e.target.value)}
+          placeholder="Enter Name"
           required
         /> </label>
      
@@ -107,6 +108,7 @@ const handleprint=()=>{
           type="text" 
           value={address}
           onChange={(e) => setAddress(e.target.value)}
+          placeholder="Enter Address"
           required
         /> </label>
       <label>Invoice No: 
@@ -114,6 +116,7 @@ const handleprint=()=>{
           type="text" 
           value={invoiceNo}
           onChange={(e) => setInvoiceNo(e.target.value)}
+         placeholder="Enter Invoice No"
           required
         /></label>
      
@@ -145,6 +148,7 @@ const handleprint=()=>{
           type="text" 
           value={storeName}
           onChange={(e) => setStoreName(e.target.value)}
+          placeholder="Enter Name"
           required
         /></label>
       
@@ -153,6 +157,7 @@ const handleprint=()=>{
           type="text" 
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter Email"
           required
         /> </label>
     
@@ -161,6 +166,7 @@ const handleprint=()=>{
           type="text" 
           value={phoneNo}
           onChange={(e) => setPhoneNo(e.target.value)}
+           placeholder="Enter Phone No"
           required
         /></label>
       
@@ -169,6 +175,7 @@ const handleprint=()=>{
           type="text" 
           value={storeAddress}
           onChange={(e) => setStoreAddress(e.target.value)}
+           placeholder="Enter Address"
           required
         />
        </label>
@@ -178,6 +185,7 @@ const handleprint=()=>{
           type="text" 
           value={notes}
           onChange={(e) => setNotes(e.target.value)}
+           placeholder="Enter some notes"
           required
         />
      </label>
